@@ -138,7 +138,7 @@ description=🌟已累计清理: 1587个【文件】 | 243个【文件夹】
 ## 🔄 更新与支持
 
 ### 纸飞机频道
-[Telegram 群组](https://t.me/FleshyGrape)
+[Telegram 频道](https://t.me/lsposed0)
 
 ---
 
