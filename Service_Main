@@ -1,5 +1,9 @@
 #!/system/bin/sh
-   
-   export LD_LIBRARY_PATH=/data/adb/modules/Clear_Rubbish/lib/:$LD_LIBRARY_PATH
-   nohup /data/adb/modules/Clear_Rubbish/bin/MainControl > /dev/null 2>&1 &
-   
+# AutoPurge Pro - Main Service
+
+MODDIR="/data/adb/modules/Clear_Rubbish"
+[ -d "/data/adb/ksu/modules/Clear_Rubbish" ] && MODDIR="/data/adb/ksu/modules/Clear_Rubbish"
+
+export LD_LIBRARY_PATH="$MODDIR:$LD_LIBRARY_PATH"
+chmod 755 "$MODDIR/MainControl"
+nohup "$MODDIR/MainControl" > /dev/null 2>&1 &

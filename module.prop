@@ -1,0 +1,7 @@
+id=Clear_Rubbish
+name=AutoPurge Pro
+version=1.0.13.0
+versionCode=10130
+author=Fleshy Grape & Manus
+description=智能垃圾清理自动化工具，已适配 Android 16 (API 36)。累计清理数据展示在 Magisk/KernelSU 模块描述中。
+minApi=26

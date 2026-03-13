@@ -2,7 +2,7 @@
 # AutoPurge Pro 🗑️
 
 ![Magisk/KernelSU Module](https://img.shields.io/badge/Magisk%2FKernelSU-Compatible-brightgreen)
-![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-blue)
+![Android 8.0 - 16](https://img.shields.io/badge/Android-8.0%2B-blue)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-yellow)](LICENSE)
 
 智能垃圾清理自动化工具，为 Android 设备提供深度清理和资源管理能力。
@@ -25,7 +25,7 @@
 
 ### 环境要求
 - **Magisk v24+** 或 **KernelSU**
-- Android 8.0+ (API Level 26+)
+- Android 8.0 - 16 (API Level 26 - 36)
 - 确保 `/sdcard` 分区可读写
 
 ### 安装流程
